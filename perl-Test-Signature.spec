@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Test
-%define pnam	Signature
+%define	pnam	Signature
 Summary:	Test::Signature - automatic signature testing
 Summary(pl):	Test::Signature - automatyczne sprawdzanie sygnatur
 Name:		perl-Test-Signature
