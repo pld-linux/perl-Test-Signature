@@ -11,7 +11,7 @@ Name:		perl-Test-Signature
 Version:	1.06
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	23581fec6af0fb9027f90b8a0565d71a
@@ -36,7 +36,6 @@ czê¶æ zestawu testów dystrybucyjnych.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
