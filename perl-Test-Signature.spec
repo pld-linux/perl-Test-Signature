@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Test
-%define	pnam	Signature
+%define		pdir	Test
+%define		pnam	Signature
 Summary:	Test::Signature - automatic signature testing
 Summary(pl):	Test::Signature - automatyczne sprawdzanie sygnatur
 Name:		perl-Test-Signature
