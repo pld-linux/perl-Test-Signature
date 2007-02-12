@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	Signature
 Summary:	Test::Signature - automatic signature testing
-Summary(pl):	Test::Signature - automatyczne sprawdzanie sygnatur
+Summary(pl.UTF-8):   Test::Signature - automatyczne sprawdzanie sygnatur
 Name:		perl-Test-Signature
 Version:	1.06
 Release:	2
@@ -25,10 +25,10 @@ Module::Signature allows you to verify that a distribution has not
 been tampered with. "Test::Signature" lets that be tested as part of
 the distribution's test suite.
 
-%description -l pl
-Module::Signature pozwala sprawdziæ, czy dystrybucyjna paczka nie
-zosta³a naruszona. Test::Signature pozwala na sprawdzenie tego jako
-czê¶æ zestawu testów dystrybucyjnych.
+%description -l pl.UTF-8
+Module::Signature pozwala sprawdziÄ‡, czy dystrybucyjna paczka nie
+zostaÅ‚a naruszona. Test::Signature pozwala na sprawdzenie tego jako
+czÄ™Å›Ä‡ zestawu testÃ³w dystrybucyjnych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
