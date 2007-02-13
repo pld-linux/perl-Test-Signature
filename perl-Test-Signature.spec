@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	Signature
 Summary:	Test::Signature - automatic signature testing
-Summary(pl.UTF-8):   Test::Signature - automatyczne sprawdzanie sygnatur
+Summary(pl.UTF-8):	Test::Signature - automatyczne sprawdzanie sygnatur
 Name:		perl-Test-Signature
 Version:	1.06
 Release:	2
