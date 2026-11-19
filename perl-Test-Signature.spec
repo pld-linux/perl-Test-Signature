@@ -7,13 +7,13 @@
 Summary:	Test::Signature - automatic signature testing
 Summary(pl.UTF-8):	Test::Signature - automatyczne sprawdzanie sygnatur
 Name:		perl-Test-Signature
-Version:	1.10
-Release:	2
+Version:	1.11
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0990c65388fb1d89d3459d406536de3c
+# Source0-md5:	e4bc208d3a07c0d24009a12029c8cc94
 URL:		http://search.cpan.org/dist/Test-Signature/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
